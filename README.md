@@ -1,4 +1,3 @@
-جاهز للاستخدام
 
 ```markdown
 # Intrusion Alert Script

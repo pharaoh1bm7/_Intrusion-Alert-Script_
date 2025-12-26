@@ -1,63 +1,60 @@
-تمام يا بلال ✅
-ده **README.md جاهز ومحترف** مناسب لمشروعك الحالي
-***Intrusion-Alert-Script*** وتقدر تعمله Copy → Paste مباشرة في GitHub.
 
----
 
 ```markdown
-# Intrusion Alert Script
+# Intrusion Alert Script 🛡️
 
-🚨 **Lightweight Network Intrusion Detection & Alerting Tool**
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
-A Python-based script designed to monitor network activity, detect suspicious behavior (such as DoS/DDoS patterns), and alert the administrator in real time.
-
----
-
-## 🧠 Project Overview
-
-This project aims to provide a **simple yet extensible intrusion detection mechanism** suitable for learning, experimentation, and small-scale monitoring.
-
-It focuses on:
-- Detecting abnormal traffic behavior
-- Raising alerts when potential attacks are identified
-- Helping beginners understand IDS concepts عمليًا
+**Project Lead:** Belal Eladawy
 
 ---
 
-## ✨ Features
+## 🚀 Project Overview
 
-- 📡 Network traffic monitoring  
-- 🛡️ Detection of abnormal request rates  
-- 🚨 Real-time alert (popup / console-based)  
-- 🧩 Easy-to-extend detection logic  
-- 🐍 Written in Python for simplicity and clarity  
+**Intrusion Alert Script** is a lightweight, Python-based network monitoring and intrusion detection tool.  
+It is designed to detect abnormal traffic patterns (like DoS/DDoS attacks) and instantly alert administrators, making it a **practical educational tool** for security researchers and beginners.
 
 ---
 
-## 📁 Project Structure
+## 🔍 Features
+
+- Real-time network traffic monitoring  
+- Detection of suspicious request spikes and abnormal behavior  
+- Immediate alert notifications for detected intrusions  
+- Simple Python codebase, easy to extend and customize  
+- Educational focus for learning intrusion detection concepts
+
+---
+
+## 📂 Project Structure
 
 ```
 
 *Intrusion-Alert-Script*/
 │
-├─ plugin.py        # Main intrusion detection script
-├─ README.md        # Project documentation
-└─ docs/            # Additional documentation (optional)
+├─ plugin.py            # Main IDS script
+├─ README.md            # Project documentation
+├─ LICENSE              # MIT License
+└─ docs/
+└─ usage.md         # Detailed usage instructions
 
 ````
 
 ---
 
-## ⚙️ Requirements
+## ⚡ Requirements
 
-- Python 3.x  
-- Basic knowledge of networking concepts  
+- Python 3.10+  
+- Basic networking knowledge  
+- Optional: Python libraries for popup alerts (`tkinter`, etc.)
 
 ---
 
-## ▶️ How to Run
+## ▶️ Installation & Usage
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/pharaoh1bm7/_Intrusion-Alert-Script_.git
 cd _Intrusion-Alert-Script_
@@ -69,45 +66,50 @@ cd _Intrusion-Alert-Script_
 python3 plugin.py
 ```
 
----
-
-## 🔍 How It Works
-
-The script analyzes network-related data and checks for:
-
-* Sudden spikes in traffic
-* Unusual request behavior
-* Patterns that may indicate DoS/DDoS attacks
-
-⚠️ **Note:**
-This is an educational project and not a replacement for enterprise-grade IDS solutions like Snort or Suricata.
+3. Monitor console output or popup alerts for suspicious activity.
 
 ---
 
-## 🧪 Use Cases
+## 🧩 How It Works
 
-* Learning Intrusion Detection basics
-* Security awareness & training
-* Proof-of-concept IDS development
-* Academic or personal security projects
+* The script monitors traffic patterns continuously.
+* Alerts are triggered when abnormal behavior (like high request rates) is detected.
+* Easy to extend: add custom detection rules or integrate with logging systems.
+
+> ⚠️ **Note:** This is a learning-focused project. For production-grade IDS, consider using Snort, Suricata, or Zeek.
+
+---
+
+## 📖 Example
+
+```python
+# Simple usage example
+print("Monitoring network traffic...")
+traffic_spike = 200  # Example threshold
+if traffic_spike > 100:
+    print("[ALERT] Possible DoS attack detected!")
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-If you want to improve detection logic, add logging, or enhance alerts:
+We welcome contributions from the community!
 
-1. Fork the repo
-2. Create a new branch
-3. Submit a Pull Request
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push to your branch: `git push origin feature/YourFeature`
+5. Open a Pull Request
 
 ---
 
 ## 👤 Project Lead
 
-**Belal Al-Adawy**
-Security Researcher | Project Lead
+**Belal Eladawy** – Security Researcher & Project Lead
+
+* Passionate about intrusion detection, penetration testing, and security education.
+* Active on platforms like HackerOne & Bugcrowd.
 
 ---
 
@@ -117,140 +119,7 @@ This project is licensed under the **MIT License** – free to use, modify, and 
 
 ---
 
-⭐ If you find this project useful, consider giving it a star!
-
-```
-
----
-
-### الخطوة الجاية المقترحة 👇  
-- بعد ما ترفع README  
-- نضيف **CONTRIBUTING.md + LICENSE**  
-- وبعدين نخليه **IDS Project منظم** يليق باسمك كباحث أمني وقائد مشروع
-
-لما تخلص رفعه قولي  
-**نكمل إيه بعد كده؟**
-```
-تمام يا بلال ✅
-ده **README.md جاهز ومحترف** مناسب لمشروعك الحالي
-***Intrusion-Alert-Script*** وتقدر تعمله Copy → Paste مباشرة في GitHub.
-
----
-
-```markdown
-# Intrusion Alert Script
-
-🚨 **Lightweight Network Intrusion Detection & Alerting Tool**
-
-A Python-based script designed to monitor network activity, detect suspicious behavior (such as DoS/DDoS patterns), and alert the administrator in real time.
-
----
-
-## 🧠 Project Overview
-
-This project aims to provide a **simple yet extensible intrusion detection mechanism** suitable for learning, experimentation, and small-scale monitoring.
-
-It focuses on:
-- Detecting abnormal traffic behavior
-- Raising alerts when potential attacks are identified
-- Helping beginners understand IDS concepts عمليًا
-
----
-
-## ✨ Features
-
-- 📡 Network traffic monitoring  
-- 🛡️ Detection of abnormal request rates  
-- 🚨 Real-time alert (popup / console-based)  
-- 🧩 Easy-to-extend detection logic  
-- 🐍 Written in Python for simplicity and clarity  
-
----
-
-## 📁 Project Structure
-
-```
-
-*Intrusion-Alert-Script*/
-│
-├─ plugin.py        # Main intrusion detection script
-├─ README.md        # Project documentation
-└─ docs/            # Additional documentation (optional)
-
-````
-
----
-
-## ⚙️ Requirements
-
-- Python 3.x  
-- Basic knowledge of networking concepts  
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/pharaoh1bm7/_Intrusion-Alert-Script_.git
-cd _Intrusion-Alert-Script_
-````
-
-2. Run the script:
-
-```bash
-python3 plugin.py
-```
-
----
-
-## 🔍 How It Works
-
-The script analyzes network-related data and checks for:
-
-* Sudden spikes in traffic
-* Unusual request behavior
-* Patterns that may indicate DoS/DDoS attacks
-
-⚠️ **Note:**
-This is an educational project and not a replacement for enterprise-grade IDS solutions like Snort or Suricata.
-
----
-
-## 🧪 Use Cases
-
-* Learning Intrusion Detection basics
-* Security awareness & training
-* Proof-of-concept IDS development
-* Academic or personal security projects
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-If you want to improve detection logic, add logging, or enhance alerts:
-
-1. Fork the repo
-2. Create a new branch
-3. Submit a Pull Request
-
----
-
-## 👤 Project Lead
-
-**Belal Al-Adawy**
-Security Researcher | Project Lead
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – free to use, modify, and distribute.
-
----
-
-⭐ If you find this project useful, consider giving it a star!
+⭐ **Support the project by giving it a star!**
 
 ```
 

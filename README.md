@@ -117,9 +117,3 @@ We welcome contributions from the community!
 
 This project is licensed under the **MIT License** – free to use, modify, and distribute.
 
----
-
-⭐ **Support the project by giving it a star!**
-
-```
-
